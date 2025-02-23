@@ -1,7 +1,7 @@
 const container = document.querySelector('.container')
 
 fetch('https://67bb5e68fbe0387ca139e330.mockapi.io/productos')
-    .then(response => response.json)
+    .then(response => response.json())
     .then(data => {
         let datos = ''
         data.forEach(element => {
